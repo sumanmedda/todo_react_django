@@ -25,6 +25,8 @@ function App() {
           <Route path="/" element={<ProtectedRoute><Home /></ProtectedRoute>}/>
           {/* Login Page */}
           <Route path="/login" element={<Login />}/>
+          {/* Logout Page */}
+          <Route path="/logout" element={<Logout />}/>
           {/* Register Page */}
           <Route path="/register" element={<RegisterAndLogout />}/>
           {/* Register Page */}
