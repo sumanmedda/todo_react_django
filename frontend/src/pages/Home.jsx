@@ -38,6 +38,8 @@ function Home() {
         .then((res) => {
             if (res.status === 201) alert("Note Created!!")
             else alert("Failed To Create Note")
+            setContent("")
+            setTitle("")
             getNotes()
         })
         .catch((err) => alert(err));
